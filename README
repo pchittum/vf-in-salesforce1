@@ -3,3 +3,6 @@ Study of Visualforce in S1
 Focus on a couple of key elements of Visualforce in Salesforce1
 1. Visualforce remoting
 2. Accessing the publisher through the canvas publisher API
+3. Remote objects
+4. REST API access from VF through the ForceTK
+

@@ -11,7 +11,7 @@
 <apex:includeScript value="{!$Resource.forcetk}"/>    
 <!-- <c:RemoteTK />-->
 <apex:remoteObjects >
-	<apex:remoteObjectModel id="wtfDoesThisDo" name="Damage_Report__c" fields="Id" jsShorthand="DamageReport">
+	<apex:remoteObjectModel id="model" name="Damage_Report__c" fields="Id" jsShorthand="DamageReport">
 		<apex:remoteObjectField name="Merchandise__c" jsShorthand="merchId"/>
 		<apex:remoteObjectField name="Type__c" jsShorthand="type"/>			
 		<apex:remoteObjectField name="Description__c" jsShorthand="description"/>		
